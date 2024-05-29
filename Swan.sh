@@ -36,4 +36,4 @@ chmod +x computing-provider
 
 ./computing-provider account create --ownerAddress $wallet_address --ubi-flag=true
 
-nohup ./computing-provider ubi daemon >> cp.log 2>&1 &
+#nohup ./computing-provider ubi daemon >> cp.log 2>&1 &
