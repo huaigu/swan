@@ -1,6 +1,8 @@
 #!/bin/bash
 
-read -p "请输入 ECP IP 地址: " ECP_IP
+
+ECP_IP=$(curl -s ifconfig.me)
+echo "ECP_IP: $ECP_IP"
 
 ECP_PORT=9085
 
