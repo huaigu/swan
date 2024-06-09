@@ -1,5 +1,6 @@
 #!/bin/bash
 
+curl -fsSL https://raw.githubusercontent.com/swanchain/go-computing-provider/releases/ubi/setup.sh | bash
 
 ECP_IP=$(curl -s ifconfig.me)
 echo "ECP_IP: $ECP_IP"
